@@ -52,6 +52,15 @@ bot.use(
 );
 ```
 
+## Private hosting
+
+If you are hosting botmetrics on your own Heroku instance, you will need to add one more environment variable:
+
+```
+BOTMETRICS_API_HOST=your-heroku-url
+```
+
+
 ## Examples
 
 To run the example, run the following command:
